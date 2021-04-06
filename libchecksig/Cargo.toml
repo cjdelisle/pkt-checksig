@@ -1,0 +1,11 @@
+[package]
+name = "libchecksig"
+version = "0.1.0"
+authors = ["Caleb James DeLisle <cjd@cjdns.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitcoin = { version = "0.26", features = ["secp-recovery","base64"] }
+anyhow = "1"

@@ -2,4 +2,5 @@
 members = [
     "libchecksig",
     "checksig",
+    "signmsg",
 ]

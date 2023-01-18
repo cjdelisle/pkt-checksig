@@ -1,0 +1,11 @@
+[package]
+name = "signmsg"
+version = "0.1.0"
+authors = ["Caleb James DeLisle <cjd@cjdns.fr>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libchecksig = { version = "0.1", path = "../libchecksig" }
+anyhow = "1"
